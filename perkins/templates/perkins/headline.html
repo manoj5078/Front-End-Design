@@ -1,0 +1,326 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> -->
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1>Perkins Head Line</h1>
+    <div class="group">
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="ams1">
+            <div class="heading">AMS 1</div>
+            <div id="h6"><i style="font-size:16px; color: rgb(7, 110, 7);" class="fa">&#xf111;</i>&nbsp;Machine Running</div>
+            <div class="mt-100">
+                <div class="col-md-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">90%</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="list">
+                <ul>
+                    <li id="li">Availability</li>
+                    <li>Performance</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li id="li">###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <ul>
+                    <li>Part<br>Count</li>
+                    <li>DQMS<br>Count</li>
+                    <li>Rejected<br>Part Count</li>
+                    <li>Cycle<br>Time</li>
+                </ul>
+            </div>
+
+            <div class="list4">
+                <ul>
+                    <li>###</li>
+                    <li id="li">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div>
+           
+        </div>
+        </a>
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="ams2">
+            <div class="heading">AMS 2</div>
+            <div id="heading6"><i style="font-size:16px; color: rgb(204, 124, 19);" class="fa">&#xf111;</i>&nbsp;Machine Idle</div>
+            <div class="mt-100">
+                <div class="col-md-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">90%</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="list">
+                <ul>
+                    <li id="li">Availability</li>
+                    <li>Performance</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li id="li">###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <ul>
+                    <li>Part<br>Count</li>
+                    <li>DQMS<br>Count</li>
+                    <li>Rejected<br>Part Count</li>
+                    <li>Cycle<br>Time</li>
+                </ul>
+            </div>
+
+            <div class="list4">
+                <ul>
+                    <li>###</li>
+                    <li id="li">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div> 
+        </div></a>
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="ams3">
+            <div class="heading">AMS 3</div>
+            <div id="heading6"><i style="font-size:16px; color: rgb(204, 124, 19);" class="fa">&#xf111;</i>&nbsp;Machine Idle</div>
+            <div class="mt-100">
+                <div class="col-md-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">90%</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="list">
+                <ul>
+                    <li id="li">Availability</li>
+                    <li>Performance</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li id="li">###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <ul>
+                    <li>Part<br>Count</li>
+                    <li>DQMS<br>Count</li>
+                    <li>Rejected<br>Part Count</li>
+                    <li>Cycle<br>Time</li>
+                </ul>
+            </div>
+
+            <div class="list4">
+                <ul>
+                    <li>###</li>
+                    <li id="li">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div> 
+        </div></a>
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="mori">
+            <div class="heading">Mori</div>
+            <div id="heading6"><i style="font-size:16px; color: rgb(204, 124, 19);" class="fa">&#xf111;</i>&nbsp;Machine Idle</div>
+            <div class="mt-100">
+                <div class="col-md-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">90%</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="list">
+                <ul>
+                    <li id="li">Availability</li>
+                    <li>Performance</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li id="li">###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <ul>
+                    <li>Part<br>Count</li>
+                    <li>DQMS<br>Count</li>
+                    <li>Rejected<br>Part Count</li>
+                    <li>Cycle<br>Time</li>
+                </ul>
+            </div>
+
+            <div class="list4">
+                <ul>
+                    <li>###</li>
+                    <li id="li">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div> 
+        </div></a>
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="washing">
+            <div class="heading">Washing</div>
+            <div id="heading6"><i style="font-size:16px; color: rgb(204, 124, 19);" class="fa">&#xf111;</i>&nbsp;Machine Idle</div>
+            <div class="mt-100">
+                <div class="col-md-6">
+                    <div class="progress blue">
+                      <span class="progress-left">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                           <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">90%</div>
+                    </div>
+                </div>  
+            </div>
+            <div class="list">
+                <ul>
+                    <li id="li">Availability</li>
+                    <li>Performance</li>
+                    <li>Quality</li>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <li id="li">###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+
+            <div class="list3">
+                <ul>
+                    <li>Part<br>Count</li>
+                    <li>DQMS<br>Count</li>
+                    <li>Rejected<br>Part Count</li>
+                    <li>Cycle<br>Time</li>
+                </ul>
+            </div>
+
+            <div class="list4">
+                <ul>
+                    <li>###</li>
+                    <li id="li">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div> 
+        </div></a>
+        <a href="{% url 'perkins:dashboard' %}">
+        <div class="leaktest">
+            <div class="heading">Leakest Test</div>
+            <div class="lists">
+                <ul>
+                    <li>Leaktest Pass Count</li>
+                    <li>Leaktest Fail Count</li>
+                    <li>Total Leak Test Count</li>
+                </ul>
+            </div>
+            <div class="lists1">
+                <ul>
+                    <li id="li1">###</li>
+                    <li id="li">###</li>
+                    <li id="li2">###</li>
+                </ul>
+            </div>
+        </div></a>
+        <a href="{% url 'perkins:finalinspection' %}">
+        <div class="finalinspection">
+            <div class="heading">Final Inspection</div>
+            <div class="lists">
+                <ul>
+                    <li>Waiting for Deburring & LT</li>
+                    <li>Waiting for washing</li>
+                    <li>Waiting for inspection</li>
+                    <li>Final Inspected</li>
+                    <li>Total MR</li>
+                    <li>Total FR</li>
+                    <li>Total Hold</li>
+                    <li>Total Reworks</li>
+                    <li>Total RFD</li>
+                </ul>
+            </div>
+            <div class="lists1">
+                <ul>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+        </div></a>
+    </div>
+</div>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Inspection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+    <link rel="stylesheet" href="{% static '/css/finalinspection.css'%}">
+</head>
+<body>
+<div class="container">
+    <div class="sub-container">
+        <div class="group1">
+            <ul>
+                <li><button type="button" class="btn btn-primary">Documents</button></li>
+                <li><button type="button" class="btn btn-primary">Reports</button></li>
+            </ul>
+
+            <div class="inner-group">
+                <input type="date" id="date">
+                <select name="" id="dropdown">
+                    <option value="">Shift 1</option>
+                    <option value="">Shift 2</option>
+                    <option value="">Shift 3</option>
+                </select>
+            </div>
+            <h1>Final Inspection</h1>
+            <div class="icon">
+                <a href="/"><i class="fa fa-arrow-circle-o-left" style="font-size:35px;color:rgb(235, 228, 228)"></i></a>
+            </div>
+        </div>
+
+        <div class="group2">
+            <div class="box1">
+                <ul>
+                    <li>Total Production Quantity</li>
+                    <li style="color: rgb(54, 54, 223);">###</li>
+                </ul>
+            </div>
+            <div class="box2">
+                <ul>
+                    <li>Waiting for Deburring & LT</li>
+                    <li>Waiting for Fettling / Washing</li>
+                    <li>Waiting for Final Inspection</li>
+                </ul>
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li  style="color: rgb(12, 243, 12);">###</li>
+                    <li  style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+            <div class="box3">
+                <ul>
+                    <li>Total Rework</li>
+                    <li>Total Hold</li>
+                    <li>Total RFD</li>
+                </ul>
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="group3">
+            <div id="box1">
+                <h1>Total Leak Test Count</h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+            <div id="box2">
+                <h1>Total Leak Test Pass Count</h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+            <div id="box3">
+                <h1>Total Leak Test Fail Count</h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="group4">
+            <div id="box4">
+                <h1>Final Inspected </h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+            <div id="box5">
+                <h1>Total Machining Rejection </h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+            <div id="box6">
+                <h1>Total Foundry Rejection </h1>
+                <ul>
+                    <li>Shift 1</li>
+                    <li>Shift 2</li>
+                    <li>Shift 3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+
+                <ul id="ul2">
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                    <li style="color: rgb(12, 243, 12);">###</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="group5">
+            <div class="card">
+                <div id="chart" class="card-block">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+      var data1 = [240, 200, 400, 200, 120, 300, 400, 170, 220, 340, 540, 670];
+      var data2 = [120, 190, 120, 140, 220, 320, 450, 120, 670, 450, 550, 700];
+      var data3 = [230, 290, 310, 534, 242, 652, 435, 220, 637, 445, 555, 670];
+      var data4 = [130, 590, 810, 334, 642, 352, 135, 520, 337, 745, 255, 570];
+
+      $(function () {
+          $("#chart").shieldChart({
+              exportOptions: {
+                  image: true,
+                  print: true
+              },
+              axisY: {
+                  title: {
+                      text: "Break-Down for selected quarter"
+                  }
+              },
+              primaryHeader: {
+                  text: "Line Chart"
+              },           
+              dataSeries: [{
+                  seriesType: "line",
+                  collectionAlias: 'Availability',
+                  data: data1
+              }, {
+                  seriesType: "line",
+                  collectionAlias: 'Performance',
+                  data: data2
+              }, {
+                  seriesType: "line",
+                  collectionAlias: 'Quality',
+                  data : data3
+              }, {
+                  seriesType: "line",
+                  collectionAlias: 'OEE',
+                  data : data4
+              }],
+          });
+      });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+.sub-container {
+    height: 500px;
+    width: 1100px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    position: absolute;
+}
+
+h1 {
+   text-align: center;
+   position: relative;
+}
+
+img {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 50px;
+    height: 800px;
+    width: 1600px;
+}
+
+.group1 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.group1 #ul2 {
+    position: absolute;
+    margin-left: 210px;
+}
+
+.group2 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 310px;
+}
+
+.group2 #ul2 {
+    position: absolute;
+    margin-left: 490px;
+}
+
+.group3 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 580px;
+}
+
+.group3 #ul2 {
+    position: absolute;
+    margin-left: 750px;
+}
+
+.group4 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 420px;
+    margin-left: 330px;
+}
+
+.group4 #ul2 {
+    position: absolute;
+    margin-left: 420px;
+}
+
+.group5 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 248px;
+    margin-left: 610px;
+}
+
+.group5 #ul2 {
+    position: absolute;
+    margin-left: 780px;
+}
+
+.group6 ul {
+    list-style: none;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 418px;
+    margin-left: 590px;
+}
+
+.group6 #ul2 {
+    position: absolute;
+    margin-left: 750px;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 25px;
+    height: 25px;
+    padding: 4px 0px;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: rgb(46, 219, 46);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 225px;
+}
+
+#button1 {
+    background-color: rgb(28, 224, 38);
+}
+#button2 {
+    margin-left: 350px;
+    margin-top: 80px;
+    background-color: rgb(224, 28, 28);
+}
+
+#button3 {
+    margin-left: 580px;
+    margin-top: 60px;
+    background-color: rgb(28, 224, 38);
+}
+
+#button4 {
+    margin-top: 240px;
+    background-color: rgb(28, 224, 38);
+}
+
+#button5 {
+    margin-left: 739px;
+    margin-top: 170px;
+    background-color: rgb(28, 224, 38);
+}
+
+#button6 {
+    margin-left: 340px;
+    margin-top: 350px;
+    background-color: rgb(28, 224, 44);
+}
+
+#button7 {
+    margin-left: 515px;
+    margin-top: 350px;
+    background-color: rgb(224, 28, 28);
+}

@@ -1,0 +1,122 @@
+body {
+    background-color: #080808;
+  }
+.sub-container {
+    height: 730px;
+    width: 940px;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin-left: 150px;
+    background-color: #16033d;
+}
+
+.group {
+    height: 740px;
+    width: 900px;
+    /* border: 1px solid red; */
+    margin-left: 7%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.group #box1, #box2, #box3, #box4 {
+    height: 350px;
+    width: 400px;
+    background-color: rgb(16, 16, 90);
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.group #box1 h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(245, 148, 38);
+    position: relative;
+    height: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.group #box1 h2 {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    color: rgb(247, 155, 35);
+}
+
+.group #box1 table {
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    height: 5%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.group #box2 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(245, 148, 38);
+    height: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+.group #box2 h2 {
+    color: rgb(247, 155, 35);
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+.group #box3 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(218, 118, 5);
+    font-weight: bold;
+    position: relative;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.group #box3 h2 {
+    color: rgb(5, 167, 2);
+    font-size: 14px;
+    position: absolute;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.group #box4 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(223, 122, 8);
+    height: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.group #box4 h2 {
+    color: rgb(5, 167, 2);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: 30px;
+
+}
+

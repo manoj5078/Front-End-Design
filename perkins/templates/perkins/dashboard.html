@@ -1,0 +1,321 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/dashboard.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="sub-container">
+        <div class="group1">
+            <ul>
+                <li><button type="button" class="btn btn-primary btn-sm">Documents</button></li>
+                <li><button type="button" class="btn btn-primary btn-sm">Charts</button></li>
+                <li><button type="button" class="btn btn-primary btn-sm">Reports</button></li>
+            </ul>
+            <div class="inner-group">
+                <input type="date" id="date">
+                <select name="" id="dropdown">
+                    <option value="">Shift 1</option>
+                    <option value="">Shift 2</option>
+                    <option value="">Shift 3</option>
+                </select>
+            </div>
+            <div class="inner-group2">
+                <h2>AMS 1</h2>
+            </div>
+            <h2><i style="font-size:20px" class="fa">&#xf111;</i>Line Status</h2>
+            <a href="/"><i class="fa fa-arrow-circle-o-left" style="font-size:35px;color:rgb(235, 228, 228)"></i></a>
+        </div>
+
+        <div class="group2">
+            <div class="box1">
+                <div id="name1">Machine Run Time</div>
+                <div id="value">###</div>
+            </div>
+            <div class="box2">
+                <div id="name1">Machine Idle Time</div>
+                <div id="value">###</div>
+            </div>
+            <div class="box3">
+                <div id="name1">Machine Emergency Time</div>
+                <div id="value">###</div>
+            </div>
+            <div class="box4">
+                <div id="name1">Part Count</div>
+                <div id="value">###</div>
+            </div>
+            <div class="box5">
+                <div id="name1">DQMS Count</div>
+                <div id="value">###</div>
+            </div>
+            <div class="box6">
+                <div id="name1">Rejected Count</div>
+                <div id="value">###</div>
+            </div>
+        </div>
+
+        <div class="group3">
+            <ul>
+                <li id="li1"><i style="font-size:16px; color: rgb(17, 247, 17);" class="fa">&#xf111;</i>Machine Run Time</li>
+                <li id="li2"><i style="font-size:16px; color: rgb(252, 252, 42)" class="fa">&#xf111;</i>Machine Idle Time</li>
+                <li id="li3"><i style="font-size:16px; color: rgb(233, 10, 10);" class="fa">&#xf111;</i>Machine Emergency Time</li>
+                <li id="li4"><i style="font-size:16px; color: rgb(252, 125, 7);" class="fa">&#xf111;</i>Power Loss</li>
+            </ul>
+        </div>
+
+        <div class="group4">
+            <ul>
+                <li id="greenbox"></li>
+                <li id="yellowbox"></li>
+                <li id="redbox"></li>
+                <li id="orangebox"></li>
+            </ul>
+        </div>
+
+        <div class="group5">
+            <ul>
+                <li style="color: #049dff"><i style="font-size:16px; color: #049dff;" class="fa">&#xf111;</i>Availability</li>
+                <li style="color: rgb(250, 165, 8)"><i style="font-size:16px; color: rgb(247, 147, 17);" class="fa">&#xf111;</i>Performance</li>
+                <li style="color: red;"><i style="font-size:16px; color: rgb(250, 6, 6);" class="fa">&#xf111;</i>Quality</li>
+                <li style="color: #036d08;"><i style="font-size:16px; color: #036d08;" class="fa">&#xf111;</i>OEE</li>
+            </ul>
+            <div class="circle1">
+                <div class="mt-100">
+                    <div class="col-md-6">
+                        <div class="progress blue">
+                          <span class="progress-left">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">90%</div>
+                        </div> 
+                    </div>   
+                </div>
+            </div>
+            <div class="circle2">
+                <div class="mt-100">
+                    <div class="col-md-6">
+                        <div class="progress orange">
+                          <span class="progress-left">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">79%</div>
+                        </div> 
+                    </div>   
+                </div>
+            </div>
+            <div class="circle3">
+                <div class="mt-100">
+                    <div class="col-md-6">
+                        <div class="progress red">
+                          <span class="progress-left">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">100%</div>
+                        </div> 
+                    </div>   
+                </div>
+            </div>
+            <div class="circle4">
+                <div class="mt-100">
+                    <div class="col-md-6">
+                        <div class="progress green">
+                          <span class="progress-left">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <span class="progress-right">
+                             <span class="progress-bar"></span>
+                          </span>
+                          <div class="progress-value">75%</div>
+                        </div> 
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <div class="group6">
+            <div class="sub-group1">
+                <div id="h6">Part Count</div>
+                <ul>
+                    <li>Shift1</li>
+                    <li>Shift2</li>
+                    <li>Shift3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+                <ul id="ul2">
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+            <div class="sub-group2">
+                <div id="h6">DQMS Count</div>
+                <ul>
+                    <li>Shift1</li>
+                    <li>Shift2</li>
+                    <li>Shift3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+                <ul id="ul2">
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+            <div class="sub-group3">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn-info">MR</button>
+                    <button type="button" class="btn-info">FR</button>
+                    <button type="button" class="btn-info">Rework</button>
+                    <button type="button" class="btn-info">Hold</button>
+                </div>
+                <ul>
+                    <li>Shift1</li>
+                    <li>Shift2</li>
+                    <li>Shift3</li>
+                    <li>Daily</li>
+                    <li>Monthly</li>
+                </ul>
+                <ul id="ul2">
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                    <li>###</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="group7">
+            <div class="card">
+                <div id="chart" class="card-block">
+                </div>
+            </div>
+        </div>
+
+        <div class="group8">
+            <div class="btn-group" role="group">
+                <button class="btn-info">Expected Day Count</button>
+                <button class="btn-info">Expected Month Count</button>
+            </div>
+            <div class="card">
+                <div id="chart2" class="card-block">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- line chart -->
+<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+<script type="text/javascript">
+      jQuery(function ($) {
+        var data1 = [240, 200, 400, 200, 120, 300, 400, 170, 220, 340, 540, 670];
+        var data2 = [120, 190, 120, 140, 220, 320, 450, 120, 670, 450, 550, 700];
+        var data3 = [230, 290, 310, 534, 242, 652, 435, 220, 637, 445, 555, 670];
+        var data4 = [130, 590, 810, 334, 642, 352, 135, 520, 337, 745, 255, 570];
+
+        $(function () {
+            $("#chart").shieldChart({
+                exportOptions: {
+                    image: true,
+                    print: true
+                },
+                axisY: {
+                    title: {
+                        text: "Break-Down for selected quarter"
+                    }
+                },
+                primaryHeader: {
+                    text: "Line Chart"
+                },           
+                dataSeries: [{
+                    seriesType: "line",
+                    collectionAlias: 'Availability',
+                    data: data1
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'Performance',
+                    data: data2
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'Quality',
+                    data : data3
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'OEE',
+                    data : data4
+                }],
+            });
+        });
+      });
+</script>
+
+<script type="text/javascript">
+      jQuery(function ($) {
+        var data1 = [240, 200, 400, 200, 120, 300, 400, 170, 220, 340, 540, 670];
+        var data2 = [120, 190, 120, 140, 220, 320, 450, 120, 670, 450, 550, 700];
+        var data3 = [230, 290, 310, 534, 242, 652, 435, 220, 637, 445, 555, 670];
+        var data4 = [130, 590, 810, 334, 642, 352, 135, 520, 337, 745, 255, 570];
+
+        $(function () {
+            $("#chart2").shieldChart({
+                exportOptions: {
+                    image: true,
+                    print: true
+                },
+                axisY: {
+                    title: {
+                        text: "Break-Down for selected quarter"
+                    }
+                },
+                primaryHeader: {
+                    text: "Line Chart"
+                },           
+                dataSeries: [{
+                    seriesType: "line",
+                    collectionAlias: 'Availability',
+                    data: data1
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'Performance',
+                    data: data2
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'Quality',
+                    data : data3
+                }, {
+                    seriesType: "line",
+                    collectionAlias: 'OEE',
+                    data : data4
+                }],
+            });
+        });
+      });
+</script>
+</body>
+</html>

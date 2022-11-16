@@ -1,0 +1,58 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static '/css/headline2.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="sub-container">
+        <div class="group">
+            <div id="box1">
+                <h1>AMS 1</h1>
+                <h2><i style="font-size:14px" class="fa">&#xf111;</i>&nbsp;Machine Idle</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Alarm No</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Causes</th>
+                            <th scope="col">category</th>
+                            <th scope="col">Remedy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">EX0072</th>
+                            <th>Tool through colant not coming</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="box2">
+                <h1>AMS 2</h1>
+                <h2><i style="font-size:14px" class="fa">&#xf111;</i>&nbsp;Machine Idle</h2>
+            </div>
+            <div id="box3">
+                <h1>AMS 3</h1>
+                <h2><i style="font-size:14px" class="fa">&#xf111;</i>&nbsp;Machine Running</h2>
+            </div>
+            <div id="box4">
+                <h1>Mori</h1>
+                <h2><i style="font-size:14px" class="fa">&#xf111;</i>&nbsp;Machine Running</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

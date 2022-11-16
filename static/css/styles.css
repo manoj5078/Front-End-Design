@@ -1,0 +1,339 @@
+body {
+  background-color: #181344;
+}
+h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: 'Gentium Book Plus', serif;
+}
+.group {
+    position: absolute;
+    height: auto;
+    width: 1200px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.group, .ams1, .ams2, .ams3, .mori, .washing, .leaktest, .finalinspection{
+  float: left;
+  margin: 21px;
+  
+}
+
+.ams1 {
+    height: 350px;
+    width: 350px;
+    background-color: rgb(3,12,66);
+    margin-top: 10px;
+    position: relative;
+}
+
+.heading{
+    height: 30px;
+    width: 350px;
+    background-color: rgb(250,132,5);
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#h6 {
+    color: rgb(4,138,26);
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: small;
+    font-weight: bold;
+    position: absolute;
+}
+
+.mt-100{
+    margin-top: 50px;
+    position: absolute;
+  }
+  .progress {
+    width: 100px;
+    height: 100px !important;
+    float: left; 
+    line-height: 100px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative;
+  }
+  .progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .progress .progress-left {
+    left: 0;
+  }
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  .progress .progress-right {
+    right: 0;
+  }
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+  }
+  .progress .progress-value {
+    width: 90%;
+    height: 90%;
+    /* border-radius: 0%; */
+    background: rgb(3,12,66);
+    font-size: 18px;
+    color: rgb(242, 243, 248);
+    line-height: 100px;
+    text-align: center;
+    position: absolute;
+    /* top: 2%; */
+    left: 5%;
+  }
+  .progress.blue .progress-bar {
+    border-color: #049dff;
+  }
+  .progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s;
+  }
+  .progress.yellow .progress-bar {
+    border-color: #fdba04;
+  }
+  .progress.yellow .progress-right .progress-bar {
+    animation: loading-3 1.8s linear forwards;
+  }
+  .progress.yellow .progress-left .progress-bar {
+    animation: none;
+  }
+  @keyframes loading-1 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes loading-2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+    }
+  }
+
+.list {
+    margin-top: 80px;
+    margin-left: 140px;
+    position: absolute;
+}
+.list ul li {
+    color: rgba(241, 232, 232, 0.952);
+    list-style: none;
+}
+
+.list ul #li {
+    color: rgb(247, 6, 6);
+}
+
+.list2{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.list2 ul li {
+    list-style: none;
+    color:rgba(241, 232, 232, 0.952);
+}
+
+.list2 ul #li {
+    color: rgb(247, 6, 6);
+}
+
+.list3 {
+    position: absolute;
+    margin-top: 230px;
+}
+
+.list3 ul li {
+    list-style: none;
+    color: rgba(241, 232, 232, 0.952);
+    float: left;
+    margin: 10px;
+}
+
+.list4{
+    position: absolute;
+    margin-top: 280px;
+}
+
+.list4 ul li {
+    list-style: none;
+    color:#fff;
+    float: left;
+    margin: 15px;
+}
+
+.list4 ul #li {
+    margin-left: 25px;
+}
+
+.list4 ul #li2 {
+    margin-left: 40px;
+} 
+
+.ams2 {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative;
+  
+}
+
+#heading6 {
+  color: rgb(235, 163, 10);
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: small;
+  font-weight: bold;
+  position: absolute;
+}
+
+.ams3 {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative; 
+}
+
+.mori {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative; 
+}
+
+.washing {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative; 
+}
+
+.leaktest {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative; 
+}
+
+.leaktest .lists {
+  color: #fff;
+  margin-top: 50px;
+  position: absolute;
+}
+.leaktest .lists ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.leaktest .lists1 {
+  color: #fff;
+  margin-top: 60px;
+  float: right;
+  margin-right: 50px;
+}
+.leaktest .lists1 ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+.leaktest .lists1 ul #li {
+  color: rgb(230, 10, 10);
+}
+.leaktest .lists1 ul #li1 {
+  color: rgb(4, 248, 4);
+}
+.leaktest .lists1 ul #li2 {
+  color: rgb(10, 14, 247);
+}
+
+.finalinspection {
+  height: 350px;
+  width: 350px;
+  background-color: rgb(3,12,66);
+  margin-top: 10px;
+  position: relative; 
+}
+
+.finalinspection .lists {
+  color: #fff;
+  margin-top: 35px;
+  position: absolute;
+}
+.finalinspection .lists ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.finalinspection .lists1 {
+  color: #fff;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 240px;
+}
+.finalinspection .lists1 ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.finalinspection .lists1 ul li {
+  color: #2a0cd6;
+}
